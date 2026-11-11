@@ -1,0 +1,111 @@
+{
+    "tide": 3,
+    "users": [
+        {
+            "id": 1,
+            "username": "ayesha",
+            "password": "1234",
+            "alias": "Blue Tide 19",
+            "helped": 0
+        },
+        {
+            "id": 2,
+            "username": "bilal",
+            "password": "1234",
+            "alias": "Silver Anchor 72",
+            "helped": 0
+        },
+        {
+            "id": 3,
+            "username": "ali",
+            "password": "ali123",
+            "alias": "Calm Tide 36",
+            "helped": 0
+        },
+        {
+            "id": 4,
+            "username": "sara",
+            "password": "sara123",
+            "alias": "Hidden Anchor 93",
+            "helped": 1
+        }
+    ],
+    "bottles": [
+        {
+            "id": 1,
+            "sender_id": 1,
+            "type": "motivation",
+            "mood": "stressed",
+            "message": "Exams start next week and I feel like I already failed.",
+            "status": "drifting",
+            "ready_at": 0,
+            "touched": 0,
+            "caught_by": []
+        },
+        {
+            "id": 2,
+            "sender_id": 2,
+            "type": "comfort",
+            "mood": "lonely",
+            "message": "I moved to a new city for uni and I have no friends here yet.",
+            "status": "drifting",
+            "ready_at": 5,
+            "touched": 1,
+            "caught_by": [
+                4
+            ]
+        },
+        {
+            "id": 3,
+            "sender_id": 1,
+            "type": "advice",
+            "mood": "confused",
+            "message": "Should I tell my parents I want to change my degree?",
+            "status": "drifting",
+            "ready_at": 0,
+            "touched": 0,
+            "caught_by": []
+        },
+        {
+            "id": 4,
+            "sender_id": 3,
+            "type": "motivation",
+            "mood": "stressed",
+            "message": "My semester project is due and nothing is working.",
+            "status": "replied",
+            "ready_at": 2,
+            "touched": 1,
+            "caught_by": [
+                4
+            ]
+        },
+        {
+            "id": 5,
+            "sender_id": 4,
+            "type": "comfort",
+            "mood": "sad",
+            "message": "Some days I just want to die, everything feels too heavy.",
+            "status": "drifting",
+            "ready_at": 1,
+            "touched": 0,
+            "caught_by": []
+        }
+    ],
+    "replies": [
+        {
+            "id": 1,
+            "bottle_id": 4,
+            "replier_id": 4,
+            "message": "You are not alone, take it one small step at a time.",
+            "helpful": true
+        }
+    ],
+    "reports": [
+        {
+            "id": 1,
+            "reply_id": 1,
+            "reporter_id": 3,
+            "reason": "just testing the report"
+        }
+    ]
+}

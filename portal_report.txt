@@ -1,0 +1,14 @@
+========== PORTAL REPORT ==========
+Users: 4
+Bottles thrown: 5
+Bottles answered: 1 (20%)
+Replies written: 1
+Helpful replies: 1
+Reported replies: 1
+Bottles by type:
+   advice: 1
+   comfort: 2
+   motivation: 2
+Most common mood: stressed
+Top helpers:
+   1. Hidden Anchor 93 (1 helpful)
